@@ -1,10 +1,10 @@
 
-import Login from '../screens/auth/Login';
-import Register from '../screens/auth/Register'
-import Home from './Home'
+import login from '../screens/auth/login';
+import register from '../screens/auth/register'
+import home from './Home'
 
 export {
-    Home,
-    Login,
-    Register,
+    home,
+    login,
+    register,
 }
