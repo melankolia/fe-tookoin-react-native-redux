@@ -19,6 +19,7 @@ import {
   ProductCategory,
   InboxSeller,
   HomeSeller,
+  MyOrderSeller,
 } from '../screens/index';
 
 const StackAuth = createStackNavigator(
@@ -111,7 +112,7 @@ const StackHomeSeller = createStackNavigator(
   {
     HomeSeller,
     InboxSeller,
-    Home,
+    MyOrderSeller,
   },
   {
     initialRouteName: 'HomeSeller',
@@ -193,7 +194,7 @@ const RouteTab = createBottomTabNavigator(
 const RouteTab2 = createBottomTabNavigator(
   {
     HomeSeller: {
-      screen: HomeSeller,
+      screen: StackHomeSeller,
       navigationOptions: {
         tabBarIcon: ({tintColor}) => (
           <IconFA name="shopping-bag" size={22} color={tintColor} />
@@ -201,8 +202,8 @@ const RouteTab2 = createBottomTabNavigator(
         tabBarLabel: 'My Store',
       },
     },
-    InboxSeller: {
-      screen: InboxSeller,
+    MyOrderSeller: {
+      screen: MyOrderSeller,
       navigationOptions: {
         tabBarIcon: ({tintColor}) => (
           <Icon name="receipt" size={24} color={tintColor} />

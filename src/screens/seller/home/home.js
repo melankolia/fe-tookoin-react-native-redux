@@ -41,7 +41,9 @@ class HomeSeller extends Component {
             </View>
             <View style={styles.hr} />
             <View style={styles.bodyBody}>
-              <TouchableOpacity style={styles.bodyFlex}>
+              <TouchableOpacity style={styles.bodyFlex} 
+              // onPress={() => this.props.navigation.navigate('MyOrderSeller')}
+              >
                 <IconMI style={styles.bodyIcon} name="local-shipping" />
                 <Text style={styles.bodyText}>Perlu Dikirim</Text>
               </TouchableOpacity>

@@ -11,6 +11,7 @@ import ProductCategory from '../screens/buyer/product-category/product-category'
 import InboxSeller from '../screens/seller/inbox/inbox';
 import HomeSeller from './seller/home/home';
 import Cart from './buyer/cart/cart';
+import MyOrderSeller from '../screens/seller/my-order/my-order';
 
 export {
   Home,
@@ -26,4 +27,5 @@ export {
   ProductCategory,
   InboxSeller,
   HomeSeller,
+  MyOrderSeller,
 };
