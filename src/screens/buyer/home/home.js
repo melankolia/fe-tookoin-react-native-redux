@@ -36,7 +36,7 @@ class HomeBuyer extends Component {
           </View>
           <View style={category}>
             <Category
-              name="Sayuran sugar"
+              name="Sayuran Segar789"
               imgUri={require('../../../assets/icon/carrot.png')}
               navigation={this.props.navigation}
               id={1}
@@ -73,7 +73,7 @@ class HomeBuyer extends Component {
             />
             <Category
               name="Organik & Premium"
-              imgUri={require('../../../assets/icon/winner.png')}
+              imgUri={require('../../../assets/icon/winner2.png')}
               navigation={this.props.navigation}
               id={7}
             />
@@ -103,7 +103,7 @@ class HomeBuyer extends Component {
             />
             <Category
               name="Daging & Seafood"
-              imgUri={require('../../../assets/icon/fish.png')}
+              imgUri={require('../../../assets/icon/octopus.png')}
               navigation={this.props.navigation}
               id={12}
             />
